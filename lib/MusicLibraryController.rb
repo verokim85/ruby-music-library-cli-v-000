@@ -93,16 +93,15 @@ end
 
 
   def play_song
-    self.list_songs
+    
 
     puts "Which song number would you like to play?"
 
     input = gets.strip
 
     song = Song.all.detect {|song| song.name== input}
-
-      song.each_with_index do |song, index|
-            "#{index+1}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
+    self.list_songs
+  
       end
     end
 
