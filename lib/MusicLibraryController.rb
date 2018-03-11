@@ -25,13 +25,13 @@ class MusicLibraryController
 
       input = gets.chomp
 
-      case input 
+      case input
         when "list songs"
           songs
-         
-        
 
-      
+
+
+    end
   end
 end
 
