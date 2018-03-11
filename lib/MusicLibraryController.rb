@@ -100,6 +100,7 @@ end
     input = gets.strip
 
     if Song.all.detect {|song| song.name== input}
+      song = song.name
 
       song.each_with_index do |song, index|
           puts  "#{index+1}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
