@@ -98,7 +98,7 @@ end
     puts "Which song number would you like to play?"
 
     input = gets.strip
-    if input <= Song.all.length
+    if input <= Song.all.split("").length
 
     song = Song.all.detect {|song| song.name== input}
 
