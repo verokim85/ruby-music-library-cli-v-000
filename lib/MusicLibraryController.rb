@@ -100,25 +100,12 @@ end
     input = gets.strip
 
     song = Song.all.detect {|song| song.name== input}
-    song.list_songs
-
+    
 
     end
 
 
-    # song_col = Song.all.detect do |song|
-    #   if song.name == input
-    #     song
-    #   end
-    # end
-    #
-    #   sorted_song = song_col.sort_by { |song| song.name}
-    #
-    #   sorted_song.each_with_index do |song, index|
-    #     puts  "#{index+1}. #{song.artist.name} - #{song.name}"
-    #   end
-    # end
-
+    # son
 
 
 end
