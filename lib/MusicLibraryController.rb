@@ -100,7 +100,7 @@ end
     input = gets.strip
 
     song = Song.all.detect {|song| song.name== input}
-    
+
 
     end
 
