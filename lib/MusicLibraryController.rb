@@ -93,15 +93,15 @@ end
 
 
   def play_song
-    
+
 
     puts "Which song number would you like to play?"
 
     input = gets.strip
 
     song = Song.all.detect {|song| song.name== input}
-    self.list_songs
-  
+    songelf.list_songs
+
       end
     end
 
