@@ -27,7 +27,7 @@ class MusicLibraryController
 
       case input
         when "list songs"
-          list songs
+          :list songs
 
 
 
