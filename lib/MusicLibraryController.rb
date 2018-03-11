@@ -36,8 +36,10 @@ class MusicLibraryController
           list_songs_by_artist
         when 'list songs by genre'
           list_songs_by_genre
-        else
+        when 'play_song'
           play_song
+        else 
+          'exit'
 
     end
   end
